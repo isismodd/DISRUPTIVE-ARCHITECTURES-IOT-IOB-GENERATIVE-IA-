@@ -20,3 +20,32 @@ Muitos tutores não conseguem monitorar com precisão a quantidade de ração qu
 
 *  Horário Sincronizado → NTP para timestamps precisos
 
+## Tecnologias Gerais Utilizadas
+* Componente	Tecnologia	Finalidade
+* Microcontrolador	ESP32	Processamento e conectividade Wi-Fi
+* Sensor de Peso	Célula de carga + HX711	Medição da quantidade de ração
+* Sensor de Presença	Botão (simulado) / PIR	Detectar quando o pet se aproxima
+* Atuador	LED	Indicador visual de presença do pet
+* Plataforma IoT	ThingSpeak	Dashboard e armazenamento em nuvem
+* Protocolo	HTTP (GET)	Envio de dados para a nuvem
+* Sincronização	NTP (Network Time Protocol)	Timestamps precisos das refeições
+* Linguagem	C++ (Arduino Framework)	Programação do ESP32
+
+## Funcionalidades
+- Leitura precisa do peso da ração com célula de carga
+- Detecção automática da presença do pet com o sensor de  presença
+- Cálculo do consumo por refeição
+- Contador diário de refeições (reseta automaticamente à meia-noite)
+- Timestamp via NTP (horário de Brasília - UTC-3)
+- Envio automático para dashboard ThingSpeak
+- Feedback visual via LED
+- Filtragem de erros (ignora consumos menores que 5g, no caso da presença e não consumo)
+
+## Dashboard ThingSpeak
+### Os dados são enviados para os seguintes campos:
+
+Campo	Descrição
+* field1	Quantidade consumida na refeição (gramas)
+* field2	Total de refeições no dia atual
+* field3	Status do sistema (heartbeat)
+Acesse o dashboard: https://thingspeak.com/channels/3360059
