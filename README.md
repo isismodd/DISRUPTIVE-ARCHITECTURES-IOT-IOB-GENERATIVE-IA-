@@ -47,5 +47,5 @@ Muitos tutores não conseguem monitorar com precisão a quantidade de ração qu
 Campo	Descrição
 * field1	Quantidade consumida na refeição (gramas)
 * field2	Total de refeições no dia atual
-* field3	Status do sistema (heartbeat)
+* field3	Status do sistema (heartbeat)\
 Acesse o dashboard: https://thingspeak.com/channels/3360059
