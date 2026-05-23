@@ -51,7 +51,7 @@ Campo	Descrição
   
 Acesse o dashboard: https://thingspeak.com/channels/3360059
 
-⚠️ Importante: O canal é público! Você pode visualizar os dados em tempo real sem necessidade de login ou configuração.
+O canal é público, é possível visualizar os dados sem necessidade de login ou configuração.
 
 
 ## Instruções de Uso no Wokwi
