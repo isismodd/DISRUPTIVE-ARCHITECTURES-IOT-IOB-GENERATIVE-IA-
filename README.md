@@ -49,7 +49,7 @@ Campo	Descrição
 * field2	Total de refeições no dia atual
 * field3	Status do sistema (heartbeat)\
   
-Acesse o dashboard: https://thingspeak.com/channels/3360059
+Acesse o dashboard: https://thingspeak.mathworks.com/channels/3360059
 
 O canal é público, é possível visualizar os dados sem necessidade de login ou configuração.
 
@@ -99,7 +99,7 @@ Clique em "Start Simulation" (botão Play ▶)
 | Contador diário de refeições |  Funcional | Reseta automaticamente à meia-noite |
 | Sincronização NTP |  Funcional | Horário de Brasília (UTC-3) |
 | Envio para ThingSpeak |  Funcional | HTTP GET a cada refeição |
-| Dashboard público |  Disponível | [Clique aqui](https://thingspeak.com/channels/3360059) |
+| Dashboard público |  Disponível | [Clique aqui](https://thingspeak.mathworks.com/channels/3360059) |
 | Simulação completa no Wokwi |  Funcional | Testada e validada |
 
 ## Menu inicial
