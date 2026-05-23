@@ -9,3 +9,14 @@ Este projeto consiste em um comedouro inteligente que monitora automaticamente a
 
 ## Problema Solucionado
 Muitos tutores não conseguem monitorar com precisão a quantidade de ração que seus pets consomem diariamente, seja por rotina corrida ou por múltiplos animais na mesma residência. O comedouro inteligente automatiza esse processo, gerando alertas e estatísticas de consumo.
+
+## Tecnologias de IoT Aplicadas
+
+* Sensoriamento → Célula de carga + HX711 para medição precisa do peso
+
+* Conectividade → Wi-Fi integrado ao ESP32
+
+* Computação em Nuvem → ThingSpeak para armazenamento e visualização dos dados
+
+*  Horário Sincronizado → NTP para timestamps precisos
+
