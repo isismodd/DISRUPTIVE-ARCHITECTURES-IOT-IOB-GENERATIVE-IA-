@@ -115,5 +115,8 @@ Clique em "Start Simulation" (botão Play ▶)
 <img width="743" height="399" alt="Captura de tela 2026-05-23 194836" src="https://github.com/user-attachments/assets/c0629720-0324-455c-9fa0-c16a583e2aad" />
 <img width="717" height="886" alt="Captura de tela 2026-05-23 194913" src="https://github.com/user-attachments/assets/461dfa6f-fcf3-4088-9a43-d6b946c688c3" />
 
+## Valor Refletido no Dashboard Thingspeak
+<img width="484" height="342" alt="Captura de tela 2026-05-23 195357" src="https://github.com/user-attachments/assets/c2e354ff-0f61-42c5-bcdb-b8b957c3e5c6" />
+
 
 
