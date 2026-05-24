@@ -118,5 +118,5 @@ Clique em "Start Simulation" (botão Play ▶)
 ## Valor Refletido no Dashboard Thingspeak
 <img width="484" height="342" alt="Captura de tela 2026-05-23 195357" src="https://github.com/user-attachments/assets/c2e354ff-0f61-42c5-bcdb-b8b957c3e5c6" />
 
-
+Link do pitch: https://youtu.be/nQAvOYNK_B4
 
